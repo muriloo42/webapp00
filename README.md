@@ -6,3 +6,5 @@
 python -m pip install -r requirements.txt
 
 https://github.com/igarashimassaki
+
+https://share.streamlit.io/new/deploy-from-template/caba7b80-9494-42c4-ace9-5779ef744ae7
