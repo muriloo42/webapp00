@@ -3,6 +3,8 @@ from graficos import *
 import matplotlib.pyplot as plt
 import numpy as np
 from PIL import Image # Lib para carregar imagem no Streamlit
+
+
    
 def main(): 
     y = np.array([35, 25, 25, 15])
