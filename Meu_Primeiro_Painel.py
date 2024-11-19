@@ -1,16 +1,11 @@
 import streamlit as st
-from ACTlib01 import *
+from graficos import *
 import matplotlib.pyplot as plt
 import numpy as np
 from PIL import Image # Lib para carregar imagem no Streamlit
    
 def main():    
-    Configurar_Pagina("ACT - Soluções para Pessoas/TESTE", "amplo", "auto", "https://docs.streamlit.io", "mailto:informacoes.actsp@gmail.com", "#### **ACT - Soluções para Pessoas**. Você pode usar formatação Markdown para adicionar informações neste espaço. Para mais informações acesse *https://www.markdownguide.org*", "©️")
-    Imagem(caminho='1stDashboard.png', rotulo = ' ', dimensao=760, preencher="falso", clamp = "falso", padrao_cor="RGB", formato_saida = "auto")
-    
-    Escrever('''
-                [Matplotlib Pie Charts](https://www.w3schools.com/python/matplotlib_pie_charts.asp)
-            ''')
+
     
     y = np.array([35, 25, 25, 15])
     mylabels = ["Apples", "Bananas", "Cherries", "Dates"]
