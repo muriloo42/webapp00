@@ -101,6 +101,10 @@ def main():
     })
     y = np.array([35, 25, 25, 15])
     mylabels = ["Apples", "Bananas", "Cherries", "Dates"]   
+    
+    with st.container(border=True):
+        st.title("Meu Primeiro Painel de Dados Python")
+    
     col1, col2, col3 = st.columns(3)
     with col1:
         with st.container(border=True):
