@@ -89,6 +89,16 @@ def Grafico_Barra_Horizontal(Rotulos, Quantias, Legenda, Largura = 16, Altura = 
     st.pyplot(fig)
    
 def main(): 
+    st.set_page_config(
+    page_title="Meu Primeiro Painel",
+    page_icon="🧊",
+    layout="wide",
+    initial_sidebar_state="expanded",
+    menu_items={
+        'Get Help': 'https://docs.streamlit.io/',
+        'Report a bug': "https://docs.streamlit.io/",
+        'About': "# App teste - Prof. Massaki"
+    })
     y = np.array([35, 25, 25, 15])
     mylabels = ["Apples", "Bananas", "Cherries", "Dates"]   
     col1, col2, col3 = st.columns(3)
