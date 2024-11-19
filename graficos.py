@@ -42,8 +42,8 @@ def Grafico_Pizza(Rotulos, Quantias, Legenda, posExplode, LocLEG, Larg = 16, Alt
     ax.legend(title=Titulo_legenda,
             loc=LocLEG,
             bbox_to_anchor=(1, 0, 0.5, 1))
-    fig
-    #st.pyplot(fig)
+    #fig
+    st.pyplot(fig)
 
 def Grafico_Barra_Horizontal(Rotulos, Quantias, Legenda, Largura = 16, Altura = 9, Titulo_Grafico = 'Título do Gráfico', Titulo_x = 'Titulo do Eixo x', Titulo_y = 'Titulo do Eixo y'):
     if len(Rotulos)==15:
@@ -97,5 +97,5 @@ def Grafico_Barra_Horizontal(Rotulos, Quantias, Legenda, Largura = 16, Altura = 
         ax.text(width, bar.get_y() + bar.get_height() / 2, f'{value}', ha='left', va='center')
 
     # Exibir o gráfico no Streamlit
-    fig
-    #st.pyplot(fig)
+    #fig
+    st.pyplot(fig)
