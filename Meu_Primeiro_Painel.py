@@ -103,7 +103,7 @@ def main():
     mylabels = ["Apples", "Bananas", "Cherries", "Dates"]   
     
     with st.container(border=True):
-        st.title("Meu Primeiro Painel de Dados Python")
+        st.title("Meu Primeiro Painel de Dados Python - Prof. Massaki de O. Igarashi / 2024.2")
     
     col1, col2, col3 = st.columns(3)
     with col1:
