@@ -1,1 +1,1 @@
-web: sh setup.sh && streamlit run Meu_Primeiro_Painel.py
+web: sh setup.sh && streamlit run webapp00.py
