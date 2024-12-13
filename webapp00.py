@@ -5,7 +5,14 @@ import streamlit as st
 st.title("murilo brazuna sato")
 
 a = float(st.text_input("Digite valor a: "))
-st.write(a)
+s = float(st.text_input("Digite valor s: "))
+media = (a+s)/2
+if media>5:
+  st.write("Aprovado")
+  st.write(media)
+else:
+  st.write("Rec")
+  st.write(media)
 
 # Use st.header("") para adicionar um CABEÇALHO ao seu Web app
 st.header("Cabeçalho")
